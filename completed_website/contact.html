@@ -1,0 +1,114 @@
+<!-- TEMPLATE -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Space Voyager</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="newStyle.css">
+
+</head>
+
+<body>
+
+<div id="starfield">
+  <div class="nebula nebula-1"></div>
+  <div class="nebula nebula-2"></div>
+  <div class="nebula nebula-3"></div>
+  <div class="nebula nebula-4"></div>
+</div>
+
+<div class="wrapper">
+
+  <!-- SIDEBAR 
+  <aside id="sidebar">
+    <div class="logo">
+      <div class="logo-icon">🚀</div>
+      <h1>SPACE VOYAGER</h1>
+    </div>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="planets.html">Planets</a>
+      <a href="solar.html">Solar Map</a>
+      <a href="galaxies.html">Galaxies</a>
+      <a href="booking.html">Booking</a>
+      <a href="missions.html">Missions</a>
+      <a href="astronauts.html">Astronauts</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </aside>
+  -->
+
+  <main>
+    <!-- CONTACT HERO -->
+    <section id="contact-hero">
+      <div class="section-header reveal">
+        <div class="section-tag">// COMMUNICATION UPLINK</div>
+        <h2 class="section-title">Get in <span>Touch</span></h2>
+      </div>
+      <p class="hero-sub" style="margin-bottom: 40px;">Have questions about our missions or want to join the Voyager program? Send us a message through the secure uplink below.</p>
+
+      <div class="contact-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px;">
+        <!-- CONTACT FORM -->
+        <div class="contact-form-wrapper" style="background: var(--dark-panel); border: 1px solid var(--dark-border); padding: 30px; border-radius: 8px;">
+          <form style="display: flex; flex-direction: column; gap: 20px;">
+            <div class="form-group">
+              <label style="display: block; font-family: 'Share Tech Mono'; color: var(--neon-blue); font-size: 12px; margin-bottom: 8px;">FULL NAME</label>
+              <input type="text" placeholder="Enter your name" style="width: 100%; background: rgba(0,0,0,0.3); border: 1px solid var(--dark-border); padding: 12px; color: var(--text-bright); font-family: 'Rajdhani'; outline: none;">
+            </div>
+            <div class="form-group">
+              <label style="display: block; font-family: 'Share Tech Mono'; color: var(--neon-blue); font-size: 12px; margin-bottom: 8px;">EMAIL ADDRESS</label>
+              <input type="email" placeholder="Enter your email" style="width: 100%; background: rgba(0,0,0,0.3); border: 1px solid var(--dark-border); padding: 12px; color: var(--text-bright); font-family: 'Rajdhani'; outline: none;">
+            </div>
+            <div class="form-group">
+              <label style="display: block; font-family: 'Share Tech Mono'; color: var(--neon-blue); font-size: 12px; margin-bottom: 8px;">MESSAGE</label>
+              <textarea rows="5" placeholder="Your message to mission control..." style="width: 100%; background: rgba(0,0,0,0.3); border: 1px solid var(--dark-border); padding: 12px; color: var(--text-bright); font-family: 'Rajdhani'; outline: none; resize: none;"></textarea>
+            </div>
+            <div style="display: flex; gap: 15px;">
+              <button type="submit" style="flex: 1; background: var(--neon-blue); color: var(--dark-bg); border: none; padding: 15px; font-family: 'Orbitron'; font-weight: 700; cursor: pointer; transition: all 0.3s; letter-spacing: 1px;">⬡ SEND UPLINK</button>
+              <button type="reset" style="flex: 1; background: var(--neon-purple); color: var(--dark-bg); border: none; padding: 15px; font-family: 'Orbitron'; font-weight: 700; cursor: pointer; transition: all 0.3s; letter-spacing: 1px;">↻ RESET</button>
+            </div>
+          </form>
+        </div>
+
+        <!-- CONTACT INFO -->
+        <div class="contact-info" style="display: flex; flex-direction: column; gap: 30px;">
+          <div class="info-item">
+            <h4 style="font-family: 'Orbitron'; color: var(--neon-purple); margin-bottom: 10px;">MISSION CONTROL</h4>
+            <p style="color: var(--text-dim); line-height: 1.6;">123 Starlight Boulevard<br>Neo-Tokyo, Sector 7<br>Earth, Sol System</p>
+          </div>
+          <div class="info-item">
+            <h4 style="font-family: 'Orbitron'; color: var(--neon-green); margin-bottom: 10px;">DIRECT FREQUENCY</h4>
+            <p style="color: var(--text-dim); line-height: 1.6;">Voice: +1 (555) VOYAGER<br>Data: uplink.voyager.io<br>Signal: 1420.4 MHz</p>
+          </div>
+          <div class="info-item">
+            <h4 style="font-family: 'Orbitron'; color: var(--neon-orange); margin-bottom: 10px;">OPERATIONAL HOURS</h4>
+            <p style="color: var(--text-dim); line-height: 1.6;">24/7 Interstellar Monitoring<br>Public Tours: Weekends (Mars Time)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- 
+<footer>
+  <div class="footer-logo">SPACE VOYAGER</div>
+
+  <div class="footer-links">
+    <a href="index.html">HOME</a>
+    <a href="planets.html">PLANETS</a>
+    <a href="solar.html">SOLAR MAP</a>
+    <a href="galaxies.html">GALAXIES</a>
+    <a href="booking.html">BOOK</a>
+  </div>
+
+  <div>© 2026 SPACE VOYAGER ENCYCLOPEDIA</div>
+</footer>
+-->
+</main>
+</div>
+</body>
+</html>

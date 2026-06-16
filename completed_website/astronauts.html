@@ -1,0 +1,133 @@
+<!-- TEMPLATE -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Space Voyager</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="newStyle.css">
+
+</head>
+
+<body>
+
+<div id="starfield">
+  <div class="nebula nebula-1"></div>
+  <div class="nebula nebula-2"></div>
+  <div class="nebula nebula-3"></div>
+  <div class="nebula nebula-4"></div>
+</div>
+
+<div class="wrapper">
+
+  <!-- SIDEBAR 
+  <aside id="sidebar">
+    <div class="logo">
+      <div class="logo-icon">🚀</div>
+      <h1>SPACE VOYAGER</h1>
+    </div>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="planets.html">Planets</a>
+      <a href="solar.html">Solar Map</a>
+      <a href="galaxies.html">Galaxies</a>
+      <a href="booking.html">Booking</a>
+      <a href="missions.html">Missions</a>
+      <a href="astronauts.html">Astronauts</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </aside>
+  -->
+
+  <main>
+    <!-- ASTRONAUTS HERO -->
+    <section id="astronauts-hero">
+      <div class="section-header">
+        <div class="section-tag">// ELITE EXPLORERS</div>
+        <h2 class="section-title">The <span>Voyagers</span></h2>
+      </div>
+      <p class="hero-sub" style="margin-bottom: 40px;">Meet the brave individuals who have ventured beyond our atmosphere to expand the horizons of human knowledge.</p>
+      
+      <div class="astronaut-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px;">
+        <!-- ASTRONAUT 1 -->
+        <div class="astro-card" style="background: var(--dark-panel); border: 1px solid var(--dark-border); border-radius: 8px; overflow: hidden; transition: transform 0.3s;">
+          <div class="astro-img" style="height: 200px; background: linear-gradient(45deg, #0a0a2e, #1a1a4e); display: flex; align-items: center; justify-content: center; font-size: 60px;">👨‍🚀</div>
+          <div class="astro-info" style="padding: 20px;">
+            <h3 style="font-family: 'Orbitron'; color: var(--neon-blue); margin-bottom: 5px;">Cmdr. Leo Nova</h3>
+            <p style="font-family: 'Share Tech Mono'; color: var(--neon-purple); font-size: 12px; margin-bottom: 15px;">MISSION COMMANDER</p>
+            <p style="color: var(--text-dim); font-size: 14px; line-height: 1.5;">Veteran of 3 Mars landings and lead pilot for the Europa Reconnaissance mission.</p>
+            <div class="astro-stats" style="margin-top: 15px; display: flex; gap: 15px; font-family: 'Share Tech Mono'; font-size: 11px;">
+              <span>🚀 1,200+ HRS</span>
+              <span>🌍 4 MISSIONS</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- ASTRONAUT 2 -->
+        <div class="astro-card" style="background: var(--dark-panel); border: 1px solid var(--dark-border); border-radius: 8px; overflow: hidden; transition: transform 0.3s;">
+          <div class="astro-img" style="height: 200px; background: linear-gradient(45deg, #1a0a2e, #2e0a4e); display: flex; align-items: center; justify-content: center; font-size: 60px;">👩‍🚀</div>
+          <div class="astro-info" style="padding: 20px;">
+            <h3 style="font-family: 'Orbitron'; color: var(--neon-blue); margin-bottom: 5px;">Dr. Elena Star</h3>
+            <p style="font-family: 'Share Tech Mono'; color: var(--neon-purple); font-size: 12px; margin-bottom: 15px;">CHIEF ASTROBIOLOGIST</p>
+            <p style="color: var(--text-dim); font-size: 14px; line-height: 1.5;">Leading expert in extraterrestrial life forms and head of the Titan Bio-Research Lab.</p>
+            <div class="astro-stats" style="margin-top: 15px; display: flex; gap: 15px; font-family: 'Share Tech Mono'; font-size: 11px;">
+              <span>🔬 800+ HRS</span>
+              <span>🌍 2 MISSIONS</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- ASTRONAUT 3 -->
+        <div class="astro-card" style="background: var(--dark-panel); border: 1px solid var(--dark-border); border-radius: 8px; overflow: hidden; transition: transform 0.3s;">
+          <div class="astro-img" style="height: 200px; background: linear-gradient(45deg, #0a2e1a, #0a4e2e); display: flex; align-items: center; justify-content: center; font-size: 60px;">👨‍🚀</div>
+          <div class="astro-info" style="padding: 20px;">
+            <h3 style="font-family: 'Orbitron'; color: var(--neon-blue); margin-bottom: 5px;">Marcus Vane</h3>
+            <p style="font-family: 'Share Tech Mono'; color: var(--neon-purple); font-size: 12px; margin-bottom: 15px;">SYSTEMS ENGINEER</p>
+            <p style="color: var(--text-dim); font-size: 14px; line-height: 1.5;">Specialist in deep-space propulsion and emergency EVA repairs.</p>
+            <div class="astro-stats" style="margin-top: 15px; display: flex; gap: 15px; font-family: 'Share Tech Mono'; font-size: 11px;">
+              <span>🛠️ 2,500+ HRS</span>
+              <span>🌍 6 MISSIONS</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- ASTRONAUT 4 -->
+        <div class="astro-card" style="background: var(--dark-panel); border: 1px solid var(--dark-border); border-radius: 8px; overflow: hidden; transition: transform 0.3s;">
+          <div class="astro-img" style="height: 200px; background: linear-gradient(45deg, #2e1a0a, #4e2e0a); display: flex; align-items: center; justify-content: center; font-size: 60px;">👩‍🚀</div>
+          <div class="astro-info" style="padding: 20px;">
+            <h3 style="font-family: 'Orbitron'; color: var(--neon-blue); margin-bottom: 5px;">Sarah Zenith</h3>
+            <p style="font-family: 'Share Tech Mono'; color: var(--neon-purple); font-size: 12px; margin-bottom: 15px;">NAVIGATION OFFICER</p>
+            <p style="color: var(--text-dim); font-size: 14px; line-height: 1.5;">Expert in gravitational slingshot maneuvers and dark matter mapping.</p>
+            <div class="astro-stats" style="margin-top: 15px; display: flex; gap: 15px; font-family: 'Share Tech Mono'; font-size: 11px;">
+              <span>🧭 1,500+ HRS</span>
+              <span>🌍 3 MISSIONS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+<!--
+<footer>
+  <div class="footer-logo">SPACE VOYAGER</div>
+
+  <div class="footer-links">
+    <a href="index.html">HOME</a>
+    <a href="planets.html">PLANETS</a>
+    <a href="solar.html">SOLAR MAP</a>
+    <a href="galaxies.html">GALAXIES</a>
+    <a href="booking.html">BOOK</a>
+  </div>
+
+  <div>© 2026 SPACE VOYAGER ENCYCLOPEDIA</div>
+</footer>
+-->
+</main>
+</div>
+</body>
+</html>

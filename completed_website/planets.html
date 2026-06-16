@@ -1,0 +1,150 @@
+<!-- TEMPLATE -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Space Voyager</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="newStyle.css">
+
+</head>
+
+<body>
+
+<div id="starfield">
+  <div class="nebula nebula-1"></div>
+  <div class="nebula nebula-2"></div>
+  <div class="nebula nebula-3"></div>
+  <div class="nebula nebula-4"></div>
+</div>
+
+<div class="wrapper">
+
+  <!-- SIDEBAR 
+  <aside id="sidebar">
+    <div class="logo">
+      <div class="logo-icon">🚀</div>
+      <h1>SPACE VOYAGER</h1>
+    </div>
+
+    
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="planets.html">Planets</a>
+      <a href="solar.html">Solar Map</a>
+      <a href="galaxies.html">Galaxies</a>
+      <a href="booking.html">Booking</a>
+      <a href="missions.html">Missions</a>
+      <a href="astronauts.html">Astronauts</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </aside>-->
+
+  <main>
+<section>
+  <h2 class="section-title">Planets</h2>
+  <p>Explore planets data 🌍</p>
+</section>
+
+<!-- PLANETS TABLE -->
+    <section id="planets">
+      <div class="section-header reveal">
+        <div class="section-tag">// PLANETARY DATABASE</div>
+        <h2 class="section-title">Solar System <span>Data Log</span></h2>
+      </div>
+      <div class="table-wrapper reveal">
+        <table>
+          <thead>
+            <tr>
+              <th>PLANET</th>
+              <th>AVG TEMPERATURE</th>
+              <th>DIST. FROM SUN (AU)</th>
+              <th>MOONS</th>
+              <th>DIAMETER (KM)</th>
+              <th>TYPE</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><div class="planet-cell"><span class="planet-icon">☿</span><span class="planet-name">Mercury</span></div></td>
+              <td><span class="temp-hot">167°C</span></td>
+              <td><div class="bar-wrap"><div class="dist-bar" style="width:8px"></div>0.39</div></td>
+              <td>0</td><td>4,879</td>
+              <td><span class="tag-pill tag-rocky">ROCKY</span></td>
+            </tr>
+            <tr>
+              <td><div class="planet-cell"><span class="planet-icon">♀</span><span class="planet-name">Venus</span></div></td>
+              <td><span class="temp-hot">464°C</span></td>
+              <td><div class="bar-wrap"><div class="dist-bar" style="width:14px"></div>0.72</div></td>
+              <td>0</td><td>12,104</td>
+              <td><span class="tag-pill tag-rocky">ROCKY</span></td>
+            </tr>
+            <tr>
+              <td><div class="planet-cell"><span class="planet-icon">🌍</span><span class="planet-name">Earth</span></div></td>
+              <td><span class="temp-mild">15°C</span></td>
+              <td><div class="bar-wrap"><div class="dist-bar" style="width:20px"></div>1.00</div></td>
+              <td>1</td><td>12,742</td>
+              <td><span class="tag-pill tag-rocky">ROCKY</span></td>
+            </tr>
+            <tr>
+              <td><div class="planet-cell"><span class="planet-icon">♂</span><span class="planet-name">Mars</span></div></td>
+              <td><span class="temp-cold">−65°C</span></td>
+              <td><div class="bar-wrap"><div class="dist-bar" style="width:30px"></div>1.52</div></td>
+              <td>2</td><td>6,779</td>
+              <td><span class="tag-pill tag-rocky">ROCKY</span></td>
+            </tr>
+            <tr>
+              <td><div class="planet-cell"><span class="planet-icon">♃</span><span class="planet-name">Jupiter</span></div></td>
+              <td><span class="temp-cold">−110°C</span></td>
+              <td><div class="bar-wrap"><div class="dist-bar" style="width:100px"></div>5.20</div></td>
+              <td>95</td><td>139,820</td>
+              <td><span class="tag-pill tag-gas">GAS GIANT</span></td>
+            </tr>
+            <tr>
+              <td><div class="planet-cell"><span class="planet-icon">♄</span><span class="planet-name">Saturn</span></div></td>
+              <td><span class="temp-cold">−140°C</span></td>
+              <td><div class="bar-wrap"><div class="dist-bar" style="width:184px"></div>9.58</div></td>
+              <td>146</td><td>116,460</td>
+              <td><span class="tag-pill tag-gas">GAS GIANT</span></td>
+            </tr>
+            <tr>
+              <td><div class="planet-cell"><span class="planet-icon">♅</span><span class="planet-name">Uranus</span></div></td>
+              <td><span class="temp-cold">−195°C</span></td>
+              <td><div class="bar-wrap"><div class="dist-bar" style="width:146px"></div>19.22</div></td>
+              <td>28</td><td>50,724</td>
+              <td><span class="tag-pill tag-ice">ICE GIANT</span></td>
+            </tr>
+            <tr>
+              <td><div class="planet-cell"><span class="planet-icon">♆</span><span class="planet-name">Neptune</span></div></td>
+              <td><span class="temp-cold">−200°C</span></td>
+              <td><div class="bar-wrap"><div class="dist-bar" style="width:180px"></div>30.05</div></td>
+              <td>16</td><td>49,244</td>
+              <td><span class="tag-pill tag-ice">ICE GIANT</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+<!--
+    <footer>
+  <div class="footer-logo">SPACE VOYAGER</div>
+
+  <div class="footer-links">
+    <a href="index.html">HOME</a>
+    <a href="planets.html">PLANETS</a>
+    <a href="solar.html">SOLAR MAP</a>
+    <a href="galaxies.html">GALAXIES</a>
+    <a href="booking.html">BOOK</a>
+  </div>
+
+  <div>© 2026 SPACE VOYAGER ENCYCLOPEDIA</div>
+</footer>-->
+</main>
+</div>
+</body>
+</html>

@@ -1,0 +1,181 @@
+<!-- TEMPLATE -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Space Voyager</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="newStyle.css">
+
+</head>
+
+<body>
+
+<div id="starfield">
+  <div class="nebula nebula-1"></div>
+  <div class="nebula nebula-2"></div>
+  <div class="nebula nebula-3"></div>
+  <div class="nebula nebula-4"></div>
+</div>
+
+<div class="wrapper">
+
+  <!-- SIDEBAR 
+  <aside id="sidebar">
+    <div class="logo">
+      <div class="logo-icon">🚀</div>
+      <h1>SPACE VOYAGER</h1>
+    </div>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="planets.html">Planets</a>
+      <a href="solar.html">Solar Map</a>
+      <a href="galaxies.html">Galaxies</a>
+      <a href="booking.html">Booking</a>
+      <a href="missions.html">Missions</a>
+      <a href="astronauts.html">Astronauts</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </aside>
+-->
+  <main>
+
+      <!-- BOOKING -->
+<section id="booking">
+      <div class="section-header">
+        <div class="section-tag">// SPACE TOURISM — IMAGINARY VOYAGES</div>
+        <h2 class="section-title">Book Your <span>Space Trip</span></h2>
+      </div>
+
+      <div class="booking-grid">
+
+        <!-- LEFT SIDE -->
+        <div class="booking-info">
+          <h3>Available Missions</h3>
+
+          <div class="trip-card">
+            <div class="trip-name">LUNAR ORBIT CLASSIC</div>
+            <div class="trip-price">$480,000</div>
+          </div>
+
+          <div class="trip-card">
+            <div class="trip-name">MARS COLONY PIONEER</div>
+            <div class="trip-price">$12,500,000</div>
+          </div>
+
+          <div class="trip-card">
+            <div class="trip-name">SATURN RINGS FLYBY</div>
+            <div class="trip-price">$95,000,000</div>
+          </div>
+        </div>
+
+        <!-- RIGHT SIDE FORM -->
+        <div>
+
+          <form action="success.html" method="POST" target="resultFrame">
+
+            <div class="form-title">⬡ RESERVATION TERMINAL</div>
+
+            <div class="form-row">
+              <label class="form-label">SELECT MISSION</label>
+              <select class="form-select" name="mission">
+                <option>Lunar Orbit Classic</option>
+                <option>Mars Colony Pioneer</option>
+                <option>Saturn Rings Flyby</option>
+              </select>
+            </div>
+
+            <div class="form-row-2">
+              <div>
+                <label class="form-label">FIRST NAME</label>
+                <input type="text" name="firstName" class="form-input" required>
+              </div>
+
+              <div>
+                <label class="form-label">LAST NAME</label>
+                <input type="text" name="lastName" class="form-input" required>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <label class="form-label">EMAIL ADDRESS</label>
+              <input type="email" name="email" class="form-input" required>
+            </div>
+
+            <div class="form-row">
+              <label class="form-label">DEPARTURE YEAR</label>
+              <select class="form-select" name="year">
+                <option>2027</option>
+                <option>2028</option>
+                <option>2029</option>
+                <option>2030</option>
+              </select>
+            </div>
+
+            <div class="form-row">
+              <label class="form-label">PASSENGERS</label>
+              <select class="form-select" name="passengers">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+              </select>
+            </div>
+
+            <div class="form-row">
+              <label class="form-label">SPECIAL REQUIREMENTS</label>
+              <input type="text" name="notes" class="form-input">
+            </div>
+
+            <div class="form-row">
+              <button class="submit-btn" type="submit">
+                ⬡ CONFIRM MISSION RESERVATION
+              </button>
+            </div>
+
+          </form>
+
+        
+
+          <p class="booking-disclaimer">
+            ⚠ IMAGINARY SERVICE · FOR EDUCATIONAL PURPOSES ONLY
+          </p>
+
+        </div>
+
+      </div>
+    </section>
+    <section>
+        <!-- IFRAME RESULT -->
+          <iframe name="resultFrame" style="
+            width:100%;
+            height:600px;
+            border:1px solid #00d4ff;
+            margin-top:20px;
+            background:black;
+          "></iframe>
+    </section>
+
+
+<!--
+    <footer>
+  <div class="footer-logo">SPACE VOYAGER</div>
+
+  <div class="footer-links">
+    <a href="index.html">HOME</a>
+    <a href="planets.html">PLANETS</a>
+    <a href="solar.html">SOLAR MAP</a>
+    <a href="galaxies.html">GALAXIES</a>
+    <a href="booking.html">BOOK</a>
+  </div>
+
+  <div>© 2026 SPACE VOYAGER ENCYCLOPEDIA</div>
+</footer>
+-->
+</main>
+</div>
+</body>
+</html>
